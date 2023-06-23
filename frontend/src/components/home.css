@@ -1,0 +1,38 @@
+.hello-world {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    transition: background-color 0.5s;
+  }
+  
+  .hello-world h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hello-world:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FF5B71, #8affab, #00E4C6,#000000,#ff0000,#00ff00,#0000ff,#ffff00,#00ffff);
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+    /* background-color: #e74c3c; */
+  }
+  
+  
+  .hello-world:hover h1 {
+    color: #ffffff;
+  }
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  
